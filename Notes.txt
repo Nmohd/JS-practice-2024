@@ -4,7 +4,10 @@ What is Javascript?
 
 Course Outline 
 * JS Basics
-  * 
+  * Variables are used to store some data for later use. In other words, think of them as containers which hold whateve data you put inside them.
+  * Operators are symbols used to perform some actions on variables.
+  * Expression is a line of code which contains a valid combination of variables, values and Operators.
+  * Data type tells JS what type of value we have stored in our variables.
 * DOM & BOM
   * 
 * Event Handling

@@ -1,0 +1,15 @@
+What is Javascript?
+* JS is a light-weight, cross-platform, object-oriented programming language.
+* JS is one of the 3 core technologies of web development.
+
+Course Outline 
+* JS Basics
+  * 
+* DOM & BOM
+  * 
+* Event Handling
+* OOPs in JS
+* AJAX & JSON
+* Error Handling
+* JQuery
+* ES5 & ES6

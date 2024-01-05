@@ -8,6 +8,11 @@ Course Outline
   * Operators are symbols used to perform some actions on variables.
   * Expression is a line of code which contains a valid combination of variables, values and Operators.
   * Data type tells JS what type of value we have stored in our variables.
+
+* JS Variables
+   * Camel Case
+   * Pascal Case
+   * Snake Case
 * DOM & BOM
   * 
 * Event Handling

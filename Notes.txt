@@ -19,6 +19,23 @@ Course Outline
    * parseFloat() : takes string numeral as input and returns a floating number.
    * toFixed() : takes a floating number and rounds it off to given position.
 
+* In-built String functions
+ * .length : returns the length of the string
+ * indexOf() : Find indexOf a string inside another string
+ * lastIndexOf() : find Last index of a string inside another string 
+ * slice(start, end) : get a part of our string.
+ * substr(startPos, length) : get sub string function
+ * toUpperCase() : It converts our string -> toUpperCase characters.
+ * toLowerCase() : It converts our string - > lowerCase
+ * concat() : It merges two or more strings.(we can also use "+" to concat strings)
+ * trim() : It removes extra spaces.
+ * charAt() : It takes a position as an arg and returns the character at that position.
+ * split() : it splits our string on the basis of the arguments passed.(gives array of elemnents)
+
+
+
+
+
 
 * DOM & BOM
   * 

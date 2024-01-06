@@ -13,6 +13,13 @@ Course Outline
    * Camel Case
    * Pascal Case
    * Snake Case
+* In-built Number functions
+   * toString() : number as input and returns a string.
+   * parseInt() : takes string numeral as input and returns a number.(This will return only integer number whole number not float)
+   * parseFloat() : takes string numeral as input and returns a floating number.
+   * toFixed() : takes a floating number and rounds it off to given position.
+
+
 * DOM & BOM
   * 
 * Event Handling

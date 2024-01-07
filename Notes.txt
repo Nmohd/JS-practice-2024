@@ -42,8 +42,10 @@ Explicit type coercion is conversion of datatype by programme()
   * The scope defines the part of the program where a variable or a function is visible /accessible. 
   * The variable defined outside all the functions and blocks are available throughout the code. These are call global variables.
   * The variables defined inside the functions or blocks are local variables and are only availbale in that function or block of code. These variable are call Local variables.
-   
 
+* Variable Hoisting
+  * The mechanism where variables and functions can be used before declaring them is called Hoisting in JS.
+* Function Hoisting
 
 
 

@@ -32,6 +32,12 @@ Course Outline
  * charAt() : It takes a position as an arg and returns the character at that position.
  * split() : it splits our string on the basis of the arguments passed.(gives array of elemnents)
 
+Type coercion Implicit 
+this converts the string number to number (+"2")
+Explicit type coercion is conversion of datatype by programme()
+
+* Objects and arrays
+* Functions in JS
 
 
 

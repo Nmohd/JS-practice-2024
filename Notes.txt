@@ -59,7 +59,10 @@ Explicit type coercion is conversion of datatype by programme()
     * querySelector()
     * querySelectorAll()
   * Update HTML elements
-    
+  * Updating Styles
+    Store the element in a variable and catch hold the style by the method variableName.style.{ propertyName }= value
+
+
 * Event Handling
 * OOPs in JS
 * AJAX & JSON

@@ -48,7 +48,18 @@ Explicit type coercion is conversion of datatype by programme()
 * Function Hoisting
 
 * DOM & BOM
-  * 
+ * DOM
+  * When a web page is loaded, the browser creates a DOM of the page. It is the tree representation of the HTML document. this DOM tree can be modified with teh help of JS.
+   + Methods to select HTML elemnents
+    * getElementByID
+    * getElementByClassName
+    * getElementByTagName
+   + Query Selectors
+    - Query Selectors allow you to use CSS selectors to select HTML elemnents. It is the new way in JS to select HTML elements.
+    * querySelector()
+    * querySelectorAll()
+  * Update HTML elements
+    
 * Event Handling
 * OOPs in JS
 * AJAX & JSON

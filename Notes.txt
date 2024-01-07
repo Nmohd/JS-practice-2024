@@ -47,10 +47,6 @@ Explicit type coercion is conversion of datatype by programme()
   * The mechanism where variables and functions can be used before declaring them is called Hoisting in JS.
 * Function Hoisting
 
-
-
-
-
 * DOM & BOM
   * 
 * Event Handling

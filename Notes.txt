@@ -60,7 +60,21 @@ Explicit type coercion is conversion of datatype by programme()
     * querySelectorAll()
   * Update HTML elements
   * Updating Styles
-    Store the element in a variable and catch hold the style by the method variableName.style.{ propertyName }= value
+    * Store the element in a variable and catch hold the style by the method variableName.style.{ propertyName }= value
+  
+  * Events
+    When some action happens in the webpage, that action is called event.
+    for example :
+     * The user clicking the mouse over a certain element.
+     * The user hovering the cursor over a certain element. 
+     * The user pressing a key on the keyboard.
+     * The user resizing or closing the browser window.
+     * A web page finishing loading
+     * A form being submitted.
+     * A video being played, or paused, or finishing play.
+  *  BOM (Browser Object Model)
+   * BOM represents the current browser window. The main purpose of BOM is to manipulate the properties and methdos which are associated with the browser window.
+   
 
 
 * Event Handling

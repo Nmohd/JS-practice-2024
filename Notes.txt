@@ -62,7 +62,7 @@ Explicit type coercion is conversion of datatype by programme()
   * Updating Styles
     * Store the element in a variable and catch hold the style by the method variableName.style.{ propertyName }= value
   
-  * Events
+  * * Event Handling
     When some action happens in the webpage, that action is called event.
     for example :
      * The user clicking the mouse over a certain element.
@@ -85,12 +85,43 @@ Explicit type coercion is conversion of datatype by programme()
   * Regular expressions
     * A regular expression is an object that describes a pattern of characters. It allows us to search for specific patterns of text using the defined patterns.
 
-    
-
-
-* Event Handling
 * OOPs in JS
+ * "this" keyword
+  * In JS this keyword refers to the current context. The this object always refers to a single object and it is usually used inside a function or a method to access properties and methods which are a part of the object which is associated with the function.
+ * Constructor Functions 
+ * Inheritance
+
+* HTTP Requests
+  * HTTP stands for Hypertext Transfer Protocol. The requests to backend are sent using HTTP. It is a protocol which allows the fetching of data from the server. It is the foundation of any data exchange on the web.
+  * Clients and servers communicate by exchanging individual messages. The messages sent by the client are called requests. The messages sent by theserver as an answer are called responses.
+
 * AJAX & JSON
+ * JSON stands for JS object Notation
+ * It is basically a text format that makes it easy to share data between Clients and Servers. It is origin is based on how JS object works so that's why it looks like a JS Object.
+
+* AJAX stands for Asynchronous JS and XML. It allows web pages to be updated asynchronously by exchanging data with the backend. This makes it possible to update parts of a web page, without reloading the whole page.
+* Initially AJAX was used to send and recieve XML because that was how the data was recived from the backend in old days. But now it can also be used to send/receive JSON objects, which is pretty common these days.
+
+
+
 * Error Handling
 * JQuery
-* ES5 & ES6
+* ES6
+  * These are some of the ES6 features:
+    * Variable creation using "let" and "const"
+    * Template strings
+    * Arrow Functions
+    * Rest and Spread Operators
+     * Spread syntax allows arrays and objects to be expanded into: 
+       - elemts in case of array.
+       - key-value pairs in case of object.
+    * Destructuring
+      * It allows us to unpack array or objects into a bunch of variables which makes working with arrays and objects a bit more convenient.
+      Syntax: let [a,b] = [1,2,3,4]
+      let {name, age} = { firstName: "john", lastname:"Wick"}
+    * Array functions: map(),reduce(),find() and findIndex()
+      * reduce() : Just like map() reduce also iterates through the entire array and it accepts a callback functon to perform some action on the array element. 
+        The difference here is that reduce passes the result of the callback from one iteration to the next one. This callback result is called accumulator.
+        The accumulator can be pretty much anything ( integer, string, object or even an array) and must be instantiated and passes when calling reduce.
+    * Classes
+    * Promises

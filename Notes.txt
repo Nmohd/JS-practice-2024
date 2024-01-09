@@ -124,4 +124,8 @@ Explicit type coercion is conversion of datatype by programme()
         The difference here is that reduce passes the result of the callback from one iteration to the next one. This callback result is called accumulator.
         The accumulator can be pretty much anything ( integer, string, object or even an array) and must be instantiated and passes when calling reduce.
     * Classes
+      * Inheritance
+        keyword extend to inherit in ES6 
     * Promises
+      * In jS the code is executed line-by-line in a sequence so when we run a parallel operation or asynchronous operation like fetching data from backend, JS doesn't waits for the response it simply executes the next line of code. We give the asynchronous operation a function to call when it is completed. This function is called a callback function.
+      * A promise is used to handle the asynchronous result of an operation. It defers the execution of a code block until an synchronous request is completed. This way, other operations can keep running without interruption. 

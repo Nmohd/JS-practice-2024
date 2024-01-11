@@ -175,3 +175,10 @@ newGenres;
 const updateBook = { ...book, moviePublicatioDate: "2001", pages: 12000 };
 
 console.log(updateBook);
+
+// ARROW FUNCTIONS
+
+let str = "hello what are you doing";
+const getYear = (str) => str.split(" ")[0];
+
+console.log(getYear(str));

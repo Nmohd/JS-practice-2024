@@ -144,7 +144,7 @@ function getBook(id) {
 }
 
 // Destructuring
-const book = getBook(1);
+const book = getBook(3);
 // books;
 
 // object destructuring
@@ -179,6 +179,33 @@ console.log(updateBook);
 // ARROW FUNCTIONS
 
 let str = "hello what are you doing";
-const getYear = (str) => str.split(" ")[0];
+const getYear = (str) => str.split(" ");
 
 console.log(getYear(str));
+
+// SHORT CIRCUITING
+
+console.log(true && "some string");
+console.log(false && "some string");
+
+// falsy : 0, "", null, undefined
+console.log(0 && "some string");
+
+console.log(true || "some string");
+
+console.log(false || "some string");
+
+console.log(book.translations.spanish);
+
+// knowledge colassing
+console.log(0 ?? "some string");
+
+// OPTIONAL CHAINING
+// ? before the object element is the thing which does not give error if the element does not found in the object.
+
+function getTotal(book) {
+  const goodReads = book.reviews;
+  const librarything = book.reviews.reviewsCount?.librarything;
+  return goodReads + librarything;
+}
+console.log(getTotal(book));
